@@ -1,5 +1,5 @@
 
-public class SpacedLogger {
+public class SpacedLogger implements Logger{
 
   public void log(String log) {
     //need 1st method from logger

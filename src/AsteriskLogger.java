@@ -1,5 +1,5 @@
 
-public class AsteriskLogger {
+public class AsteriskLogger implements Logger{
 
 
 public void log(String log) {
