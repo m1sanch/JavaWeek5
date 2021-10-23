@@ -9,16 +9,13 @@ public class SpacedLogger {
   
     int lengthOfString = log.length();
     int index = 0;
-    //String spacedWord = "";
     while (index < lengthOfString) {
-    //spacedWord = spacedWord + log.charAt(index) + " ";
       System.out.print(log.charAt(index) + " ");
-      index++;
-    
+      index++;    
       }
     
     System.out.println(); 
-
+    //end of log method
     }
 
   public void error(String error) {
@@ -26,18 +23,14 @@ public class SpacedLogger {
     //want to space out the letters but add Error to it
     int lengthOfString = error.length();
     int index = 0;
-    //String spacedWord = "";
     System.out.print("Error: " ); 
     while (index < lengthOfString) {
       System.out.print(error.charAt(index) + " ");
-      index++;
-      //if (index == lengthOfString){
-      //  System.out.println("/r/n");
-      // }     
-        
+      index++; 
       }
+    
     System.out.println(); 
-  
+    //end or error method
     }
   
   
